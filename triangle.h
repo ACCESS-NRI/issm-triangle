@@ -254,6 +254,12 @@
 #define TRI_REAL double
 #endif /* not SINGLE */
 
+/* Patch for ISSM */
+#ifndef REAL
+typedef double REAL;
+typedef void VOID;
+#endif /* Patch for ISSM */
+
 struct triangulateio {
   TRI_REAL *pointlist;                                           /* In / out */
   TRI_REAL *pointattributelist;                                  /* In / out */
