@@ -121,8 +121,8 @@ without arguments (that is, just type `triangle` or `showme`).
 Try out Triangle on the enclosed sample file, `A.poly':
 
 ```
-  triangle -p A
-  showme A.poly &
+triangle -p A
+showme A.poly &
 ```
 
 Triangle will read the Planar Straight Line Graph defined by `A.poly`, and
@@ -131,10 +131,10 @@ Show Me will display the figure defined by `A.poly`.  There are two buttons
 marked "ele" in the Show Me window; click on the top one.  This will cause
 Show Me to load and display the triangulation.
 
-For contrast, try running
+For contrast, try running:
 
 ```
-  triangle -pq A
+triangle -pq A
 ```
 
 Now, click on the same "ele" button.  A new triangulation will be loaded;
@@ -143,8 +143,8 @@ this one having no angles smaller than 20 degrees.
 To see a Voronoi diagram, try this:
 
 ```
-  cp A.poly A.node
-  triangle -v A
+cp A.poly A.node
+triangle -v A
 ```
 
 Click the "ele" button again.  You will see the Delaunay triangulation of
@@ -189,5 +189,5 @@ Springer-Verlag, Berlin, May 1996.  (From the First ACM Workshop on Applied
 Computational Geometry.)`
 
 
-Jonathan Richard Shewchuk
+Jonathan Richard Shewchuk\
 July 27, 2005
