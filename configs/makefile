@@ -1,4 +1,4 @@
-include ./configure.make
+include ./linux/configure.make
 
 ifeq "$(origin CC)" "undefined"
 	CC = cc
